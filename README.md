@@ -38,12 +38,12 @@ Blackburn is a clear and responsive theme for [Hugo](//gohugo.io).
 
 ## Demo
 
-* [Demo](http://themes.gohugo.io/theme/blackburn/)
-* You can also see it in action on my personal website [here](http://yoshiharuyamashita.com/)
+* [Demo of Original](http://themes.gohugo.io/theme/blackburn/)
+* You can also see it in action on my personal website [here](http://benhofferber.com/)
 
 ## Screenshots
 
-![screenshot](https://raw.githubusercontent.com/yoshiharuyamashita/blackburn/master/images/screenshot.png)
+![screenshot of original](https://raw.githubusercontent.com/yoshiharuyamashita/blackburn/master/images/screenshot.png)
 
 ## Installation
 
@@ -52,10 +52,8 @@ In your Hugo site directory, run:
 ```shell
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/yoshiharuyamashita/blackburn.git
+$ git clone https://github.com/hoffination/blackburn.git
 ```
-
-or download from [here](//github.com/yoshiharuyamashita/blackburn/archive/master.zip).
 
 See [Hugo Quickstart Guide](//gohugo.io/overview/quickstart/) for more information.
 
@@ -207,6 +205,14 @@ paginate = 10
 
 * `class`, `alt` and `caption` are optional.
 * See [Pure CSS Grids](http://purecss.io/grids/) for possible `class` values.
+
+### codepen
+
+- Simple:
+`{{% pen id="Gflmy" %}}`
+
+- Show pen in js tab:
+`{{% pen id="Gflmy" tab="js" %}}`
 
 ## License
 
