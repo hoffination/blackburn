@@ -87,3 +87,46 @@ p > img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Adding pure-table for all tables */
+.content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+.content thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.content table td, .content table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+
+.content table td:first-child, .content table th:first-child {
+    border-left-width: 0;
+}
+
+.content table td:first-child, .content table th:first-child {
+    border-left-width: 0;
+}
+
+.content table th, table td {
+    padding: 0.5em 1em;
+}
+
+/* Better blockquotes! */
+blockquote {
+  border-left: solid;
+  padding-left: 20px;
+  margin-left: 0px;
+}
