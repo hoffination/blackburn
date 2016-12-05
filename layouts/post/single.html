@@ -10,6 +10,14 @@
 
   {{ .Content }}
 
+  <h4>Make my day and share this post:</h4>
+
+  <section id="social-share">
+    <ul class="icons">
+      {{ partial "share_links.html" . }}
+    </ul>
+  </section>
+
   {{ partial "adsense.html" . }}
 
   {{ partial "prev_next_post.html" . }}
